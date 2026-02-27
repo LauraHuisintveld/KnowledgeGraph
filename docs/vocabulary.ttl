@@ -3,7 +3,6 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix gn: <http://www.geonames.org/ontology#> .
-@prefix wiki: <https://www.wikidata.org/wiki#> .
 
 kgvocab:Person a rdfs:Class ;
               rdfs:label "Person"@en ;
@@ -26,25 +25,25 @@ kgvocab:email a rdf:Property ;
             rdfs:range xsd:string .
 
 kgvocab:jobtitle a rdf:Property ;
-                rdfs:label "Jobtitle" ;
+                rdfs:label "Jobtitle"@en ;
                 rdfs:comment "The job title of a person."@en ;
                 rdfs:domain kgvocab:Person ;
                 rdfs:range xsd:string .
 
 kgvocab:affiliation a rdf:Property ;
-                rdfs:label "Affiliation" ;
+                rdfs:label "Affiliation"@en ;
                 rdfs:comment "The affiliation of a person."@en ;
                 rdfs:domain kgvocab:Person ;
                 rdfs:range xsd:string .
 
 kgvocab:location a rdf:Property ;
-                rdfs:label "Location" ;
+                rdfs:label "Location"@en ;
                 rdfs:comment "The location of a person."@en ;
                 rdfs:domain kgvocab:Person ;
                 rdfs:range gn:Feature .
 
 kgvocab:interest a rdf:Property ;
-                rdfs:label "Interest" ;
+                rdfs:label "Interest"@en ;
                 rdfs:comment "A specific interest of a person."@en ;
                 rdfs:domain kgvocab:Person ;
-                rdfs:range wiki:Feature .
+                rdfs:range kgvocab:Terms .
