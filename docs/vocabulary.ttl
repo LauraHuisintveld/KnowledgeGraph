@@ -4,8 +4,11 @@
 
 kgvocab:Person a rdfs:Class ;
               rdfs:label "Person"@en;
-              rdfs:comment: "A person is an human being that lives or lived at the earth."@en .
+              rdfs:comment "A person is an human being that lives or lived at the earth."@en .
 
 kgvocab:name a rdf:Property ;
             rdfs:label "Name"@en ;
             rdfs:comment "The name of a person."@en .
+            rdfs:domain kgvocab:Person ;
+            rdfs:range xsd:string .
+
