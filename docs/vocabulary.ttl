@@ -2,14 +2,11 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix gn: <http://www.geonames.org/ontology#>
 
 kgvocab:Person a rdfs:Class ;
               rdfs:label "Person"@en ;
               rdfs:comment "A person is an human being that lives or lived at the earth."@en .
-
-kgvocab:Place a rdfs:Class ;
-              rdfs:label "Place"@en ;
-              rdfs:comment "A Place indicated by a geonames URI."@en .
 
 kgvocab:Terms a rdfs:Class ;
               rdfs:label "Terms"@en ;
@@ -43,7 +40,7 @@ kgvocab:location a rdf:Property ;
                 rdfs:Label "Location" ;
                 rdfs:comment "The location of a person."@en ;
                 rdfs:domain kgvocab:Person ;
-                rdfs:range kgvocab:Place .
+                rdfs:range gn:Feature .
 
 kgvocab:interest a rdf:Property ;
                 rdfs:Label "Interest" ;
