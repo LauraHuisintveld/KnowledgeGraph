@@ -47,3 +47,9 @@ kgvocab:interest a rdf:Property ;
                 rdfs:comment "A specific interest of a person."@en ;
                 rdfs:domain kgvocab:Person ;
                 rdfs:range kgvocab:Terms .
+
+kgvocab:knows a rdf:Property ; 
+              rdfs:label "Knows"@en ;
+              rdfs:comment "Indicates connections of the Person."@en ;
+              rdfs:domain kgvocab:Person ;
+              rdfs:range kgvocab:Person .
