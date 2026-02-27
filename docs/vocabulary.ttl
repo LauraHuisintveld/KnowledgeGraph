@@ -12,3 +12,15 @@ kgvocab:name a rdf:Property ;
             rdfs:domain kgvocab:Person ;
             rdfs:range xsd:string .
 
+kgvocab:email a rdf:Property ;
+            rdfs:Label "Email"@en ;
+            rdfs:comment "The e-mail address of a person."@en ;
+            rdfs:domain kgvocab:Person ;
+            rdfs:range xsd:string .
+
+kgvocab:jobtitle a rdf:Property ;
+                rdfs:Label "Jobtitle" ;
+                rdfs:comment "The job title of a person."@en ;
+                rdfs:domain kgvocab:Person ;
+                rdfs:range xsd:string .
+
