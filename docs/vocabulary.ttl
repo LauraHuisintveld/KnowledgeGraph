@@ -8,7 +8,7 @@ kgvocab:Person a rdfs:Class ;
 
 kgvocab:name a rdf:Property ;
             rdfs:label "Name"@en ;
-            rdfs:comment "The name of a person."@en .
+            rdfs:comment "The name of a person."@en ;
             rdfs:domain kgvocab:Person ;
             rdfs:range xsd:string .
 
