@@ -11,6 +11,9 @@ kgvocab:Place a rdfs:Class ;
               rdfs:label "Place"@en ;
               rdfs:comment "A Place indicated by a geonames URI."@en .
 
+kgvocab:Terms a rdfs:Class ;
+              rdfs:label "Terms"@en ;
+              rdfs:comment "A term from wikidata."@en .
 
 kgvocab:name a rdf:Property ;
             rdfs:label "Name"@en ;
@@ -42,3 +45,8 @@ kgvocab:location a rdf:Property ;
                 rdfs:domain kgvocab:Person ;
                 rdfs:range kgvocab:Place .
 
+kgvocab:interest a rdf:Property ;
+                rdfs:Label "Interest" ;
+                rdfs:comment "A specific interest of a person."@en ;
+                rdfs:domain kgvocab:Person ;
+                rdfs:range kgvocab:Terms .
