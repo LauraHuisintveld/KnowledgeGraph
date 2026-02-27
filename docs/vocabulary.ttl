@@ -7,6 +7,11 @@ kgvocab:Person a rdfs:Class ;
               rdfs:label "Person"@en ;
               rdfs:comment "A person is an human being that lives or lived at the earth."@en .
 
+kgvocab:Place a rdfs:Class ;
+              rdfs:label "Place"@en ;
+              rdfs:comment "A Place indicated by a geonames URI."@en .
+
+
 kgvocab:name a rdf:Property ;
             rdfs:label "Name"@en ;
             rdfs:comment "The name of a person."@en ;
@@ -24,4 +29,16 @@ kgvocab:jobtitle a rdf:Property ;
                 rdfs:comment "The job title of a person."@en ;
                 rdfs:domain kgvocab:Person ;
                 rdfs:range xsd:string .
+
+kgvocab:affiliation a rdf:Property ;
+                rdfs:Label "Affiliation" ;
+                rdfs:comment "The affiliation of a person."@en ;
+                rdfs:domain kgvocab:Person ;
+                rdfs:range xsd:string .
+
+kgvocab:location a rdf:Property ;
+                rdfs:Label "Location" ;
+                rdfs:comment "The location of a person."@en ;
+                rdfs:domain kgvocab:Person ;
+                rdfs:range kgvocab:Place .
 
