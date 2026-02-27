@@ -1,0 +1,15 @@
+@prefix ex: <https://example.org/>.
+@prefix xsd: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+
+<https://example.org/LauraHuisintveld> a ex:Person ;
+                                            ex:name "Laura Huis in 't Veld"^^xsd:string ;
+                                            ex:email "laura.huisintveld@dans.knaw.nl"^^xsd:string ;
+                                            ex:jobtitle "Information Sysyems Officer"^^xsd:string ;
+                                            ex:affiliation "DANS-KNAW"^^xsd:string ;
+                                            ex:location <https://sws.geonames.org/2751772> ;
+                                            ex:interest <https://www.wikidata.org/wiki/Q199657> ,
+                                                        <https://www.wikidata.org/wiki/Q652122> ;
+                                            ex:knows [
+                                                ex:name "Paul Boon" , 
+                                                        "Betty Beunk"
+                                            ].
