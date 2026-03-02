@@ -9,5 +9,5 @@
                                             kgvocab:location <https://sws.geonames.org/2751772> ;
                                             kgvocab:interest <https://www.wikidata.org/wiki/Q199657> ,
                                                         <https://www.wikidata.org/wiki/Q652122> ;
-                                            kgvocab:knows <https://paulboon.github.io/knowledgegraph/employee-paulboon.ttl> , 
-                                                <https://laurenstobias.com/#laurens-tobias> .
+                                            kgvocab:knows <https://paulboon.github.io/knowledgegraph/employee-paulboon.ttl> ;
+                                            kgvocab:knows <https://laurenstobias.com/#laurens-tobias> .
