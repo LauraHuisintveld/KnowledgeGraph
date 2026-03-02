@@ -10,6 +10,6 @@
                                             kgvocab:interest <https://www.wikidata.org/wiki/Q199657> ,
                                                         <https://www.wikidata.org/wiki/Q652122> ;
                                             kgvocab:knows [
-                                                ex:name "Paul Boon" , 
-                                                        "Betty Beunk"
+                                                <https://paulboon.github.io/knowledgegraph/employee-paulboon.ttl> , 
+                                                <https://laurenstobias.com/#laurens-tobias>
                                             ].
