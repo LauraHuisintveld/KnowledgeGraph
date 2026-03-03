@@ -1,4 +1,4 @@
-@prefix kgvocab: <https://laurahuisintveld.github.io/KnowledgeGraph/vocabulary.ttl#> .
+@prefix kgvocab: <https://laurahuisintveld.github.io/KnowledgeGraph#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://laurahuisintveld.github.io/KnowledgeGraph#LauraHuisintveld> a kgvocab:Person ;
