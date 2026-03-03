@@ -1,7 +1,7 @@
 @prefix kgvocab: <https://laurahuisintveld.github.io/KnowledgeGraph/vocabulary.ttl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://example.org/LauraHuisintveld> a kgvocab:Person ;
+<https://laurahuisintveld.github.io/KnowledgeGraph#LauraHuisintveld> a kgvocab:Person ;
                                             kgvocab:name "Laura Huis in 't Veld"^^xsd:string ;
                                             kgvocab:email "laura.huisintveld@dans.knaw.nl"^^xsd:string ;
                                             kgvocab:jobtitle "Information Systems Officer"^^xsd:string ;
