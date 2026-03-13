@@ -6,7 +6,7 @@
                                             kgvocab:email "laura.huisintveld@dans.knaw.nl"^^xsd:string ;
                                             kgvocab:jobtitle "Information Systems Officer"^^xsd:string ;
                                             kgvocab:affiliation "DANS-KNAW"^^xsd:string ;
-                                            kgvocab:location <https://sws.geonames.org/2751772> ;
+                                            kgvocab:location <https://sws.geonames.org/2751772/> ;
                                             kgvocab:interest <https://www.wikidata.org/wiki/Q199657> ,
                                                              <https://www.wikidata.org/wiki/Q652122> ;
                                             kgvocab:knows <https://paulboon.github.io/knowledgegraph/employee-paulboon.ttl#PaulBoon> ,
@@ -22,7 +22,11 @@
 
 <https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Rob_Jetten%2C_March_2026_-_02.jpg/250px-Rob_Jetten%2C_March_2026_-_02.jpg> a kgvocab:Photo ;
                                             kgvocab:title "This is a picture of Rob Jetten."^^xsd:string ;
-                                            kgvocab:creator <http://www.alexishaulot.be/bio.htm> .
+                                            kgvocab:creator <http://www.alexishaulot.be/bio.htm> ;
+                                            kgvocab:subject <http://www.wikidata.org/entity/Q28860866> ;
+                                            kgvocab:photoLocation <https://sws.geonames.org/2800866/> ;
+                                            kgvocab:description "Photo extracted from: English: Roberta METSOLA, EP President meets with Rob JETTEN, Prime Minister of the Netherlands." .
+
 
 
 
