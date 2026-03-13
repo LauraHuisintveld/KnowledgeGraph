@@ -12,6 +12,10 @@ kgvocab:Terms a rdfs:Class ;
               rdfs:label "Terms"@en ;
               rdfs:comment "A term from wikidata."@en .
 
+kgvocab:Photo a rdfs:Class ;
+             rdfs:label "Photograph"@en ;
+             rdfs:comment "A picture."@en . 
+
 kgvocab:name a rdf:Property ;
             rdfs:label "Name"@en ;
             rdfs:comment "The name of a person."@en ;
@@ -53,3 +57,10 @@ kgvocab:knows a rdf:Property ;
               rdfs:comment "Indicates connections of the Person."@en ;
               rdfs:domain kgvocab:Person ;
               rdfs:range kgvocab:Person .
+
+kgvocab:title a rdf:Property
+              rdfs:label "Title"@en ;
+              rdfs:comment "The title of an photograph"@en ;
+              rdfs:domain kgvocab:Photo ;
+              rdfs:range kgvocab:Photo .
+              
