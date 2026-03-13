@@ -76,13 +76,13 @@ kgvocab:subject a rdf:Property ;
               rdfs:domain kgvocab:Photo ;
               rdfs:range kgvocab:Person .
 
-kgvocab:Photolocation a rdf:Property ;
+kgvocab:photolocation a rdf:Property ;
               rdfs:label "Photo Locations"@en ;
               rdfs:comment "The place where the photograph was taken"@en ;
               rdfs:domain kgvocab:Photo ;
               rdfs:range gn:Feature .
 
-kgvocab:PhotoDescription a rdf:Property ;
+kgvocab:photoDescription a rdf:Property ;
               rdfs:label "Photo Description"@en ;
               rdfs:comment "The description of a photograph"@en ;
               rdfs:domain kgvocab:Photo ;
