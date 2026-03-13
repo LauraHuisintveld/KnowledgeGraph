@@ -58,9 +58,33 @@ kgvocab:knows a rdf:Property ;
               rdfs:domain kgvocab:Person ;
               rdfs:range kgvocab:Person .
 
-kgvocab:title a rdf:Property
+kgvocab:title a rdf:Property ;
               rdfs:label "Title"@en ;
               rdfs:comment "The title of an photograph"@en ;
               rdfs:domain kgvocab:Photo ;
-              rdfs:range kgvocab:Photo .
+              rdfs:range xsd:string .
               
+kgvocab:creator a rdf:Property ;
+              rdfs:label "Creator"@en ;
+              rdfs:comment "The creator or author of an photograph"@en ;
+              rdfs:domain kgvocab:Photo ;
+              rdfs:range kgvocab:Person .
+
+kgvocab:subject a rdf:Property ;
+              rdfs:label "Subject"@en ;
+              rdfs:comment "The people who are depicted in a photograph"@en ;
+              rdfs:domain kgvocab:Photo ;
+              rdfs:range kgvocab:Person .
+
+kgvocab:Photolocation a rdf:Property ;
+              rdfs:label "Photo Locations"@en ;
+              rdfs:comment "The place where the photograph was taken"@en ;
+              rdfs:domain kgvocab:Photo ;
+              rdfs:range gn:Feature .
+
+kgvocab:PhotoDescription a rdf:Property ;
+              rdfs:label "Photo Description"@en ;
+              rdfs:comment "The description of a photograph"@en ;
+              rdfs:domain kgvocab:Photo ;
+              rdfs:range xsd:string .
+
