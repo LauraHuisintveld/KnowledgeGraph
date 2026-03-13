@@ -13,6 +13,12 @@
                                                           <https://laurenstobias.com/#laurens-tobias> .
 <https://github.com/LauraHuisintveld/KnowledgeGraph/blob/main/docs/avatar_LH.png?raw=true> a kgvocab:Photo ;
                                             kgvocab:title "This is a picture of me"^^xsd:string ;
-                                            kgvocab:creator <https://laurahuisintveld.github.io/KnowledgeGraph/data.ttl#LauraHuisintveld>
+                                            kgvocab:creator <https://laurahuisintveld.github.io/KnowledgeGraph/data.ttl#LauraHuisintveld> ;
+                                            kgvocab:subject <https://laurahuisintveld.github.io/KnowledgeGraph/data.ttl#LauraHuisintveld> ;
+                                            kgvocab:photoLocation <https://sws.geonames.org/2747372/> ;
+                                            kgvocab:description "This is an avatar of Laura."^^xsd:string .
+
+
+
                                             
 
