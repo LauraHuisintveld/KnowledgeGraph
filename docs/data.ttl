@@ -20,6 +20,11 @@
                                             kgvocab:photoLocation <https://sws.geonames.org/2747372/> ;
                                             kgvocab:description "This is an avatar of Laura."^^xsd:string .
 
+<https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Rob_Jetten%2C_March_2026_-_02.jpg/250px-Rob_Jetten%2C_March_2026_-_02.jpg> a kgvocab:Photo ;
+                                            kgvocab:title "This is a picture of Rob Jetten."^^xsd:string ;
+                                            kgvocab:creator <http://www.alexishaulot.be/bio.htm> .
+
+
 
                                             
 
