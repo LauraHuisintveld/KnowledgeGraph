@@ -19,6 +19,5 @@
                                             kgvocab:description "This is an avatar of Laura."^^xsd:string .
 
 
-
                                             
 
