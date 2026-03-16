@@ -17,15 +17,15 @@
                                             kgvocab:title "This is a picture of me"^^xsd:string ;
                                             kgvocab:creator <https://laurahuisintveld.github.io/KnowledgeGraph/data.ttl#LauraHuisintveld> ;
                                             kgvocab:subject <https://laurahuisintveld.github.io/KnowledgeGraph/data.ttl#LauraHuisintveld> ;
-                                            kgvocab:photoLocation <https://sws.geonames.org/2747372/> ;
-                                            kgvocab:description "This is an avatar of Laura."^^xsd:string .
+                                            kgvocab:photolocation <https://sws.geonames.org/2747372/> ;
+                                            kgvocab:photodescription "This is an avatar of Laura."^^xsd:string .
 
 <https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Rob_Jetten%2C_March_2026_-_02.jpg/250px-Rob_Jetten%2C_March_2026_-_02.jpg> a kgvocab:Photo ;
                                             kgvocab:title "This is a picture of Rob Jetten."^^xsd:string ;
                                             kgvocab:creator <http://www.alexishaulot.be/bio.htm> ;
                                             kgvocab:subject <http://www.wikidata.org/entity/Q28860866> ;
-                                            kgvocab:photoLocation <https://sws.geonames.org/2800866/> ;
-                                            kgvocab:description "Photo extracted from: English: Roberta METSOLA, EP President meets with Rob JETTEN, Prime Minister of the Netherlands." .
+                                            kgvocab:photolocation <https://sws.geonames.org/2800866/> ;
+                                            kgvocab:photodescription "Photo extracted from: English: Roberta METSOLA, EP President meets with Rob JETTEN, Prime Minister of the Netherlands." .
 
 
 
