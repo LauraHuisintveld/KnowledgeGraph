@@ -89,7 +89,7 @@ kgvocab:photolocation a rdf:Property ;
               rdfs:domain kgvocab:Photo ;
               rdfs:range gn:Feature .
 
-kgvocab:photoDescription a rdf:Property ;
+kgvocab:photodescription a rdf:Property ;
               rdfs:label "Photo Description"@en ;
               rdfs:comment "The description of a photograph"@en ;
               rdfs:domain kgvocab:Photo ;
