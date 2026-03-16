@@ -6,6 +6,7 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
 kgvocab:Person a rdfs:Class ;
+              rdfs:subClassOf foaf:Person ;
               rdfs:label "Person"@en ;
               rdfs:comment "A person is an human being that lives or lived at the earth."@en .
 
@@ -14,6 +15,7 @@ kgvocab:Terms a rdfs:Class ;
               rdfs:comment "A term from wikidata."@en .
 
 kgvocab:Photo a rdfs:Class ;
+             rdfs:subClassOf foaf:Image ; 
              rdfs:label "Photograph"@en ;
              rdfs:comment "A picture."@en . 
 
