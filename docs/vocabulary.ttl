@@ -20,6 +20,7 @@ kgvocab:Photo a rdfs:Class ;
              rdfs:comment "A picture."@en . 
 
 kgvocab:name a rdf:Property ;
+            rdfs:subPropertyOf foaf:name ;
             rdfs:label "Name"@en ;
             rdfs:comment "The name of a person."@en ;
             rdfs:domain kgvocab:Person ;
@@ -56,6 +57,7 @@ kgvocab:interest a rdf:Property ;
                 rdfs:range kgvocab:Terms .
 
 kgvocab:knows a rdf:Property ; 
+              rdfs:subPropertyOf foaf:knows ;
               rdfs:label "Knows"@en ;
               rdfs:comment "Indicates connections of the Person."@en ;
               rdfs:domain kgvocab:Person ;
@@ -68,12 +70,14 @@ kgvocab:title a rdf:Property ;
               rdfs:range xsd:string .
               
 kgvocab:creator a rdf:Property ;
+              rdfs:subPropertyOf foaf:maker ;
               rdfs:label "Creator"@en ;
               rdfs:comment "The creator or author of an photograph"@en ;
               rdfs:domain kgvocab:Photo ;
               rdfs:range kgvocab:Person .
 
 kgvocab:subject a rdf:Property ;
+              rdfs:subPropertyOf foaf:depicts ;
               rdfs:label "Subject"@en ;
               rdfs:comment "The people who are depicted in a photograph"@en ;
               rdfs:domain kgvocab:Photo ;
